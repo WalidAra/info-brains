@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/info-brains/static/css/main.a9b2ae69.css",
+    "main.js": "/info-brains/static/js/main.5a0ea208.js",
+    "index.html": "/info-brains/index.html",
+    "main.a9b2ae69.css.map": "/info-brains/static/css/main.a9b2ae69.css.map",
+    "main.5a0ea208.js.map": "/info-brains/static/js/main.5a0ea208.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9b2ae69.css",
+    "static/js/main.5a0ea208.js"
+  ]
+}
