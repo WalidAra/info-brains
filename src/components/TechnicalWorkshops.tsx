@@ -1,13 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import {
-  Database,
-  Globe,
-  Shield,
-  Smartphone,
-  Cloud,
-  Brain,
-} from "lucide-react";
+import { Database, Globe, Shield, Smartphone, Brain } from "lucide-react";
 import { motion } from "framer-motion";
 
 const TechnicalWorkshops = () => {
@@ -27,37 +20,44 @@ const TechnicalWorkshops = () => {
             <span className="text-gray-500">Learning</span>
           </h2>
         </motion.div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {[
             {
-              title: "Web Development Bootcamp",
+              title: "Front-end Development",
               description: "Build modern, responsive websites",
               icon: Globe,
-              topics: ["HTML/CSS", "JavaScript", "React", "Node.js"],
+              topics: ["HTML/CSS", "JavaScript", "React", "Node.js", "Next.js"],
             },
             {
-              title: "Data Science & ML Workshop",
+              title: "back-End Development",
               description: "Analyze data and build ML models",
               icon: Database,
-              topics: ["Python", "Pandas", "TensorFlow", "Scikit-learn"],
+              topics: ["Express", "Nest.js", "Django", "golang"],
             },
             {
               title: "Mobile App Development",
               description: "Create cross-platform mobile apps",
               icon: Smartphone,
-              topics: ["React Native", "Flutter", "iOS", "Android"],
+              topics: [
+                "React Native",
+                "Flutter",
+                "iOS",
+                "Android",
+                "cross-platform",
+              ],
             },
             {
-              title: "Cloud Computing Essentials",
-              description: "Deploy and scale applications",
-              icon: Cloud,
-              topics: ["AWS", "Docker", "Kubernetes", "Serverless"],
-            },
-            {
-              title: "Cybersecurity Fundamentals",
-              description: "Protect systems and networks",
+              title: "Graphic Design",
+              description:
+                "Learn the principles of design and create stunning visuals",
               icon: Shield,
-              topics: ["Network Security", "Cryptography", "Ethical Hacking"],
+              topics: [
+                "Photoshop",
+                "Illustrator",
+                "Figma",
+                "Sketch",
+                "InDesign",
+              ],
             },
             {
               title: "AI & Deep Learning",
@@ -72,7 +72,7 @@ const TechnicalWorkshops = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.2 }}
             >
-              <Card className="bg-[#111] border-white/5 p-6 hover:border-white/10 transition-colors h-full">
+              <Card className="bg-[#111] w-[382px] border-white/5 p-6 hover:border-white/10 transition-colors h-full">
                 <workshop.icon className="w-8 h-8 text-[#2563EB] mb-4" />
                 <h3 className="text-xl font-bold text-white mb-2">
                   {workshop.title}

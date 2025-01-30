@@ -19,42 +19,42 @@ const MemberFeedback = () => {
             <span className="text-gray-500">Members Say</span>
           </h2>
         </motion.div>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {[
             {
               quote:
-                "Joining Infobrains was the best decision I made in my CS journey. The workshops and projects have significantly boosted my skills.",
-              author: "Alex Chen",
-              role: "3rd Year CS Student",
+                "Joining this club was my best decision in college. The workshops and projects have been invaluable in helping me build my skills and win competitions more of that i could make myself a brand.",
+              author: "Walid Araar",
+              role: "1 Year master CS Student",
             },
             {
               quote:
-                "The supportive community and hands-on learning experiences at Infobrains helped me land my dream internship at a tech giant.",
-              author: "Sarah Johnson",
-              role: "4th Year CS Student",
+                "I joined the club as a second year CS student last year, it was truly a wonderful experience that allowed me to overcome my anxiety of talking publicly, without forgetting the friends i made along the way. Hoping to see the club grow even more in the next years to come",
+              author: "Meriem Soubih",
+              role: "3rd year CS student",
             },
             {
               quote:
                 "As a beginner, I was intimidated at first, but the welcoming atmosphere and mentorship programs made learning CS enjoyable and accessible.",
-              author: "Michael Park",
-              role: "2nd Year CS Student",
+              author: "Rihab Arioui",
+              role: "3nd Year CS Student",
             },
             {
               quote:
                 "The hackathons organized by Infobrains pushed me out of my comfort zone and helped me discover my passion for AI and machine learning.",
-              author: "Emily Rodriguez",
+              author: "Serine SOUAKRI",
               role: "3rd Year CS Student",
             },
             {
               quote:
                 "The networking opportunities provided by the club have been invaluable. I've made lifelong friends and professional connections.",
-              author: "David Kim",
+              author: "Khalil BANNABI",
               role: "4th Year CS Student",
             },
             {
               quote:
                 "Infobrains' focus on practical, industry-relevant skills has given me a significant advantage in my job search and interviews.",
-              author: "Lisa Patel",
+              author: "Dhiya KELLOUCHE",
               role: "Recent CS Graduate",
             },
           ].map((feedback, i) => (

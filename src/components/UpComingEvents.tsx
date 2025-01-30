@@ -23,22 +23,22 @@ const UpComingEvents = () => {
         <div className="grid md:grid-cols-3 gap-6">
           {[
             {
-              title: "Intro to Machine Learning",
-              date: "Jan 20, 2024",
+              title: "Javascript bootcamp",
+              date: "soon",
               time: "3:00 PM",
               location: "CS Building 101",
-              speaker: "Dr. Sarah Chen",
+              speaker: "Dhiya kellouche",
             },
             {
-              title: "Web3 Development",
-              date: "Jan 25, 2024",
+              title: "Git & github",
+              date: "soon",
               time: "4:00 PM",
               location: "Virtual",
-              speaker: "Mike Johnson",
+              speaker: "Walid Araar",
             },
             {
-              title: "Hackathon Prep",
-              date: "Feb 1, 2024",
+              title: "Learn how to implement system architecture in react",
+              date: "soon",
               time: "2:00 PM",
               location: "Innovation Lab",
               speaker: "Club Leadership",

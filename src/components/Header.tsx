@@ -28,12 +28,12 @@ const Header = () => {
             >
               Events
             </Link>
-            <Link
+            {/* <Link
               href="#projects"
               className="text-gray-400 hover:text-white transition-colors"
             >
               Projects
-            </Link>
+            </Link> */}
             <Link
               href="#achievements"
               className="text-gray-400 hover:text-white transition-colors"

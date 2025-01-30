@@ -35,12 +35,12 @@ const Hero = () => {
               <Button className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white rounded-full px-8 py-6">
                 Get started
               </Button>
-              <Button
+              {/* <Button
                 variant="outline"
                 className="rounded-full px-8 py-6 border-white/10 hover:bg-white/5"
               >
                 View Projects
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
           <motion.div

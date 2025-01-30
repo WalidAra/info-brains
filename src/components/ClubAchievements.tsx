@@ -4,14 +4,9 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
-
   Trophy,
   // Send,
   Star,
-  Heart,
-  Award,
-  Briefcase,
-
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -32,43 +27,19 @@ const ClubAchievements = () => {
             <span className="text-gray-500">Moments</span>
           </h2>
         </motion.div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex justify-center flex-wrap gap-6 ">
           {[
             {
-              title: "National Coding Championship",
-              description: "1st Place in Algorithm Design",
+              title: "National hakathon competition",
+              description: "3st Place in National Hackathon",
               year: "2023",
               icon: Trophy,
             },
             {
-              title: "University Hackathon",
-              description: "Grand Prize for Most Innovative Project",
+              title: "National Competition for scientific club in tebessa",
+              description: "5 place prize",
               year: "2023",
               icon: Star,
-            },
-            {
-              title: "Tech for Good Initiative",
-              description: "Developed app for local non-profit",
-              year: "2022",
-              icon: Heart,
-            },
-            {
-              title: "ACM Programming Contest",
-              description: "Regional Finalists",
-              year: "2022",
-              icon: Award,
-            },
-            {
-              title: "CS Department Recognition",
-              description: "Outstanding Student Organization",
-              year: "2021",
-              icon: Award,
-            },
-            {
-              title: "Industry Partnership",
-              description: "Collaboration with Tech Giant",
-              year: "2021",
-              icon: Briefcase,
             },
           ].map((achievement, i) => (
             <motion.div
@@ -77,7 +48,7 @@ const ClubAchievements = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.2 }}
             >
-              <Card className="bg-[#0A0A0A] border-white/5 p-6 hover:border-white/10 transition-colors">
+              <Card className="bg-[#0A0A0A] w-full sm:w-96 h-full border-white/5 p-6 hover:border-white/10 transition-colors">
                 <achievement.icon className="w-8 h-8 text-yellow-500 mb-4" />
                 <Badge className="bg-[#2563EB] text-white mb-2">
                   {achievement.year}
