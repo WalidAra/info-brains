@@ -1,11 +1,11 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Database, Globe, Shield, Smartphone, Brain } from "lucide-react";
+import { Brain, Database, Globe, Shield, Smartphone } from "lucide-react";
 import { motion } from "framer-motion";
 
 const TechnicalWorkshops = () => {
   return (
-    <section className="py-16 relative">
+    <section id={"workshops"} className="py-16 relative">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-12"

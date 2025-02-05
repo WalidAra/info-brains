@@ -1,7 +1,7 @@
-import { Terminal } from 'lucide-react';
-import Link from 'next/link';
-import React from 'react'
-import { Button } from './ui/button';
+import { Terminal } from "lucide-react";
+import Link from "next/link";
+import React from "react";
+import { Button } from "./ui/button";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link
-            href="/"
+            href="#hero"
             className="text-2xl font-bold text-white flex items-center gap-2"
           >
             <Terminal className="h-6 w-6" />
@@ -17,16 +17,16 @@ const Header = () => {
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link
-              href="#about"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              About
-            </Link>
-            <Link
               href="#events"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              Events
+              Upcoming Events
+            </Link>
+            <Link
+              href="#achievements"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              achievements
             </Link>
             {/* <Link
               href="#projects"
@@ -35,16 +35,16 @@ const Header = () => {
               Projects
             </Link> */}
             <Link
-              href="#achievements"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              Achievements
-            </Link>
-            <Link
               href="#workshops"
               className="text-gray-400 hover:text-white transition-colors"
             >
               Workshops
+            </Link>
+            <Link
+              href="#feedback"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              Feedback :D
             </Link>
           </nav>
           <Button className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white rounded-full px-6">
@@ -54,6 +54,6 @@ const Header = () => {
       </div>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;

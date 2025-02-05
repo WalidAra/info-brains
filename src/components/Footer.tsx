@@ -50,30 +50,36 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-bold mb-4">Connect</h3>
             <div className="flex flex-col gap-2">
-              <Link
+              <a
                 href="#"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Discord
-              </Link>
-              <Link
+              </a>
+              <a
                 href="#"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 GitHub
-              </Link>
-              <Link
-                href="#"
+              </a>
+              <a
+                href="https://www.linkedin.com/company/infobrains-uhbc"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 LinkedIn
-              </Link>
-              <Link
-                href="#"
+              </a>
+              <a
+                href="https://www.instagram.com/infobrains.uhbc/"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Instagram
-              </Link>
+              </a>
+              <a
+                href="https://www.facebook.com/infobrains.uhbc"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Facebook
+              </a>
             </div>
           </div>
           <div>

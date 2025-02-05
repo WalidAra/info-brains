@@ -18,9 +18,11 @@ export default function Page() {
         ))}
       </div>
       <Header />
-      <main className="relative mx-auto container max-w-6xl">
-        <Hero />
-        <UpComingEvents />
+      <main className="relative w-full">
+        <div className={"mx-auto container max-w-6xl"}>
+          <Hero />
+          <UpComingEvents />
+        </div>
         <ClubAchievements />
         <TechnicalWorkshops />
         <MemberFeedback />

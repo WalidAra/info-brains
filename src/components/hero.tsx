@@ -11,7 +11,7 @@ const fadeIn = {
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-16 relative">
+    <section id={"hero"} className="pt-32 pb-16 relative">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div className="text-center lg:text-left" {...fadeIn}>
@@ -28,8 +28,8 @@ const Hero = () => {
               <span className="text-gray-500">Community</span>
             </h1>
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto lg:mx-0 mb-8">
-              Join UHBC&apos;s premier Computer Science club. Learn, build, and grow
-              together with fellow passionate developers.
+              Join UHBC&apos;s premier Computer Science club. Learn, build, and
+              grow together with fellow passionate developers.
             </p>
             <div className="flex justify-center lg:justify-start gap-4">
               <Button className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white rounded-full px-8 py-6">

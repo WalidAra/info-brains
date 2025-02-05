@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const UpComingEvents = () => {
   return (
-    <section className="py-16 relative">
+    <section id={"events"} className="py-16 relative">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-12"

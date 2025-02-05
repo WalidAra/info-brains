@@ -1,18 +1,16 @@
-/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import {
-  Trophy,
-  // Send,
-  Star,
-} from "lucide-react";
+import { Star, Trophy } from "lucide-react";
 import { motion } from "framer-motion";
 
 const ClubAchievements = () => {
   return (
-    <section className="py-16 relative bg-[#111] rounded-2xl mx-4">
+    <section
+      id={"achievements"}
+      className="py-16 relative bg-[#111] rounded-2xl mx-4"
+    >
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-12"
