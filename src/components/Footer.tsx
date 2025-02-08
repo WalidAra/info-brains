@@ -51,7 +51,7 @@ const Footer = () => {
             <h3 className="text-white font-bold mb-4">Connect</h3>
             <div className="flex flex-col gap-2">
               <a
-                href="#"
+                href="https://discord.gg/e4GFM2KvSU"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Discord
